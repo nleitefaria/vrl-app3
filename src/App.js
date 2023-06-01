@@ -9,7 +9,7 @@ function App() {
                 Hi
             </h1>
         </div>
-   </div>
+    </div>
   );
 }
 
