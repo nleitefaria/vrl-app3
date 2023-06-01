@@ -1,14 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from './/components/Search'
 
 function App() {
   return (
-  	<div className="h-56 grid grid-cols-6 gap-10 content-center">
-        <div className="max-w-sm mx-auto p-6 bg-white rounded-lg shadow-xl">
-            <h1 className="text-3xl font-bold">
-                Hi
-            </h1>
-        </div>
+    <div class="h-full w-full p-4">
+      <div class="h-full w-full bg-400"><Search></Search></div>
     </div>
   );
 }
