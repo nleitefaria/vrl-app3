@@ -3,8 +3,8 @@ import Search from './/components/Search'
 
 function App() {
   return (
-    <div class="h-full w-full p-4">
-      <div class="h-full w-full bg-400"><Search></Search></div>
+    <div className="h-full w-full p-4">
+      <div className="h-full w-full bg-400"><Search></Search></div>
     </div>
   );
 }
